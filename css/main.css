@@ -1,0 +1,81 @@
+/*====================
+  Global
+====================*/
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+  /* colors */
+  --dark: #2f4753;
+  --accent: #10cab7;
+  --gray: #f6f6f6;
+  --dark-gray: #637988;
+
+  /* Typography */
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 2rem;
+  --font-3xl: 3rem;
+
+  /* Spacing */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  /* Transition  */
+  --anim-duration: 0.3s;
+  --main-transition: all 0.5s ease-in-out;
+}
+
+/* Typography */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*====================
+  Layout
+====================*/
+
+/* Container */
+.container {
+  max-width: 1170px;
+  padding: var(--space-md);
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  padding: var(--space-xl);
+  background-color: var(--dark);
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer span {
+  color: var(--accent);
+}
